@@ -8,7 +8,7 @@ export default function Hero() {
     <section
       id="hero"
       aria-label="Hero"
-      className="relative min-h-screen bg-deep flex flex-col items-center justify-center overflow-hidden px-6 md:px-12 pt-[120px] pb-24 text-center"
+      className="relative min-h-screen bg-deep flex flex-col items-center justify-center overflow-hidden px-6 md:px-12 pt-[64px] md:pt-[100px] pb-24 text-center"
     >
       {/* Background photo */}
       <Image

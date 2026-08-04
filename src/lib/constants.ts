@@ -75,7 +75,7 @@ export const SERVICES: Service[] = [
     description:
       'A sharp, well-maintained property signals quality to every resident, tenant, and visitor who passes through. KJS delivers consistent grounds care across every growing season, so the standard never slips between visits.',
     bullets: [
-      'Precision mow lines, every visit',
+      'Consistent cut height and defined lines',
       'Clean edges and defined borders',
       'Turf health programmes',
       'Spring and fall clean-ups',
@@ -164,7 +164,7 @@ export const PARTNERS: string[] = [
 ]
 
 export const CHECKLIST: string[] = [
-  'Crisp mow lines, every visit',
+  'Sharp lines on every pass',
   'Turf health and fertilisation',
   'Precision edging and bed detailing',
   'Scheduled service, with storm response',

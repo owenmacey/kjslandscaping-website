@@ -15,7 +15,13 @@ export default function WhoWeServe() {
           Who We Serve
         </p>
         <h2 className="font-display text-[clamp(32px,4vw,56px)] font-normal text-white leading-[1.15]">
-          Properties That <em className="italic text-amber-lt">Set the Standard</em>
+          <span className="md:hidden">
+            Properties That<br />
+            <em className="italic text-amber-lt">Set the Standard</em>
+          </span>
+          <span className="hidden md:inline">
+            Properties That <em className="italic text-amber-lt">Set the Standard</em>
+          </span>
         </h2>
       </div>
 

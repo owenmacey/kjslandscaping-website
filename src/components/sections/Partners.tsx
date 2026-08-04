@@ -14,7 +14,7 @@ export default function Partners() {
           Trusted By
         </p>
         <h2 className="font-display text-[clamp(32px,4vw,56px)] font-normal text-ink leading-[1.15]">
-          Our <em className="italic text-forest">Partners</em>
+          Long-Standing <em className="italic text-forest">Partnerships</em>
         </h2>
       </div>
 
@@ -47,7 +47,7 @@ export default function Partners() {
       </div>
 
       <p className="text-center mt-6 px-6 font-body text-[13px] italic text-slate">
-        ...and many more valued partners across the region.
+        A client roster built on referrals, renewals, and relationships that go back years, stretching from Simcoe County across Ontario.
       </p>
     </section>
   )

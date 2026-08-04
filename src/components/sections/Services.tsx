@@ -67,13 +67,15 @@ export default function Services() {
           What We Do
         </p>
         <h2 className="font-display text-[clamp(32px,4vw,56px)] font-normal text-ink leading-[1.15] mb-5">
-          Complete Landscape{' '}
+          Four-Season Landscape{' '}
           <em className="italic text-forest">Management</em>
         </h2>
         <p className="font-body text-[16px] text-slate leading-[1.7]">
-          From the first thaw of spring to the last snowfall of winter, we
-          deliver four-season landscape excellence across every property we
-          manage.
+          KJS operates as a full-service landscape partner year-round. One
+          company handling maintenance and snow
+          for the same properties across every season. One point of contact,
+          consistent crews, and the same high standard from the first spring
+          cut to the last winter salt.
         </p>
       </div>
 

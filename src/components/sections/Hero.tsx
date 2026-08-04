@@ -55,10 +55,14 @@ export default function Hero() {
         </p>
 
         {/* Body */}
-        <p className="font-body font-light text-[17px] text-white/65 max-w-[560px] leading-[1.7] mx-auto mb-10">
-          A family-run, premium landscape management company serving the GTA,
-          Muskokas &amp; Collingwood for over 27 years.
-        </p>
+        {/* <p className="font-body font-light text-[17px] text-white/65 max-w-[560px] leading-[1.7] mx-auto mb-10">
+          From the Greater Toronto Area north through the Muskokas, KJS manages
+          grounds maintenance, snow operations, and landscape construction for
+          the condominium corporations, retirement communities, and commercial
+          properties that hold their grounds to a higher standard. A family-run
+          company in its 27th year — the kind where the owner&apos;s name is
+          still on every property we maintain.
+        </p> */}
 
         {/* CTAs */}
         <div className="flex items-center justify-center gap-4 flex-wrap">

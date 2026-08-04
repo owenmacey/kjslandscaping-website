@@ -12,10 +12,10 @@ export default function WhoWeServe() {
     >
       <div className="text-center mb-14">
         <p className="font-ui text-[10px] font-bold tracking-[0.25em] uppercase text-amber-lt mb-4">
-          Our Specialization
+          Who We Serve
         </p>
         <h2 className="font-display text-[clamp(32px,4vw,56px)] font-normal text-white leading-[1.15]">
-          Properties We <em className="italic text-amber-lt">Serve</em>
+          Properties That <em className="italic text-amber-lt">Set the Standard</em>
         </h2>
       </div>
 

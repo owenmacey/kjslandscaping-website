@@ -1,33 +1,30 @@
-/**
- * PHOTO SWAP INSTRUCTIONS
- * When real KJS photos are ready:
- * 1. Add photo files to /public/images/
- * 2. Replace each URL in IMAGES below with the local path e.g. '/images/hero.jpg'
- * 3. Remove the placeholder tags from Carousel.tsx
- * 4. Remove the Unsplash attribution line from Footer.tsx
- * 5. Remove remotePatterns from next.config.ts if no external images remain
- */
 export const IMAGES = {
-  hero: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80',
+  hero: '/images/hero/IMG_3795.PNG',
 
   services: {
-    maintenance: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&q=80',
-    snow: 'https://images.unsplash.com/photo-1547754980-3df97fed72a8?auto=format&fit=crop&w=800&q=80',
-    construction: 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80',
-    interior: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80',
+    maintenance: '/images/services/maintenance/IMG_3793.PNG',
+    snow: '/images/services/snow/IMG_3630.PNG',
+    construction: '/images/services/construction/Screenshot_18.png',
+    interior: 'https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?auto=format&fit=crop&w=800&q=80', // No client photo available — Unsplash placeholder
   },
 
-  about: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80',
+  about: '/images/about/IMG_3797.PNG',
 
-  commonArea: 'https://images.unsplash.com/photo-1599598425947-5202edd56bdb?auto=format&fit=crop&w=1200&q=80',
+  commonArea: '/images/common-area/IMG_3746.jpg',
 
   carousel: [
-    'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1200&q=80',
-    'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1200&q=80',
-    'https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=1200&q=80',
-    'https://images.unsplash.com/photo-1599598425947-5202edd56bdb?auto=format&fit=crop&w=1200&q=80',
-    'https://images.unsplash.com/photo-1547754980-3df97fed72a8?auto=format&fit=crop&w=1200&q=80',
-    'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80',
+    '/images/carousel/IMG_3791.PNG',
+    '/images/carousel/IMG_3790.PNG',
+    '/images/carousel/IMG_3626.PNG',
+    '/images/carousel/Screenshot_20.png',
+    '/images/carousel/841ee7bd-60b0-4100-a75f-eb20fb0dbc23.jpg',
+    '/images/carousel/IMG_3625.PNG',
+    '/images/carousel/IMG_3792.PNG',
+    '/images/carousel/IMG_3760.jpg',
+    '/images/carousel/IMG_3631.PNG',
+    '/images/carousel/IMG_3632.PNG',
+    '/images/carousel/IMG_3744.jpg',
+    '/images/carousel/IMG_3769.jpg',
   ],
 } as const
 
@@ -61,9 +58,9 @@ export interface Stat {
 }
 
 export const STATS: Stat[] = [
-  { value: '27', suffix: '+', suffixIsAccent: true, label: 'Years in Operation' },
-  { value: 'GTA', accent: 'to', suffix: 'Muskokas', label: 'Service Area Coverage' },
-  { value: '4', label: 'Season Full-Service Management' },
+  { value: '27', suffix: '+', suffixIsAccent: true, label: 'Years of Proven Excellence' },
+  { value: 'GTA', accent: 'to', suffix: 'Muskokas', label: 'From the GTA to the Muskokas' },
+  { value: '4', label: 'Seasons. One Trusted Partner.' },
 ]
 
 export interface Service {
@@ -76,49 +73,48 @@ export const SERVICES: Service[] = [
   {
     title: 'Spring, Summer & Fall Maintenance',
     description:
-      'Precision grounds care through every growing season, keeping your property looking its best from first thaw to final leaf.',
+      'A sharp, well-maintained property signals quality to every resident, tenant, and visitor who passes through. KJS delivers consistent grounds care across every growing season, so the standard never slips between visits.',
     bullets: [
-      'Crisp, clean mow lines',
-      'Precision edging & detailing',
-      'Healthy turf management',
-      'Seasonal clean-ups',
-      'Reliable scheduling',
+      'Precision mow lines, every visit',
+      'Clean edges and defined borders',
+      'Turf health programmes',
+      'Spring and fall clean-ups',
+      'Scheduled, dependable service',
     ],
   },
   {
     title: 'Snow & Ice Management',
     description:
-      'Total winter coverage so your residents, tenants and visitors move safely — no matter what the season brings.',
+      'Winter conditions wait for no one. Properties that fall behind create liability, damage reputations, and put people at risk. KJS operates around the clock through every storm, with the equipment and response time property managers can depend on.',
     bullets: [
-      'Proactive ice control',
-      'Plowing & clearing',
-      'Salting & de-icing',
-      '24/7 storm response',
-      'Contracted seasonal programs',
+      'Proactive pre-treatment and ice control',
+      'Full-lot plowing and clearing',
+      'Salting and de-icing programmes',
+      '24/7 storm monitoring and response',
+      'Contracted seasonal coverage',
     ],
   },
   {
     title: 'Landscape Construction',
     description:
-      'Full-service landscape design and build — transforming outdoor spaces from concept through completion.',
+      'When a property needs more than maintenance, KJS takes on the full build. From the first consultation to final installation, one team handles design, build, and handover so nothing is lost between phases.',
     bullets: [
-      'Hardscaping & patios',
-      'Planting & garden installation',
-      'Irrigation systems',
-      'Retaining walls & grading',
-      'Common area enhancements',
+      'Hardscaping and patio installation',
+      'Planting and garden bed design',
+      'Irrigation system installation',
+      'Retaining walls and site grading',
+      'Common area upgrades',
     ],
   },
   {
     title: 'Interior Construction',
     description:
-      'Year-round interior project capabilities through our dedicated construction division — built to the same standard as everything we do outdoors.',
+      "KJS's interior division handles common area renovations for condominium buildings, retirement communities, and commercial properties: lobbies, corridors, amenity spaces, and shared areas brought to the standard the exterior already reflects. Year-round availability means your property keeps moving forward regardless of season.",
     bullets: [
-      'Year-round availability',
-      'Commercial & multi-res projects',
-      'Experienced crews',
-      'Quality-first approach',
-      'Full project management',
+      'Lobby, corridor, and amenity renovations',
+      'Year-round project availability',
+      'Multi-residential and commercial experience',
+      'End-to-end project management',
     ],
   },
 ]
@@ -132,27 +128,27 @@ export const SPECIALIZATIONS: Specialization[] = [
   {
     title: 'Multi-Residential',
     description:
-      "Large-scale residential communities where common area standards set the tone for every resident's experience.",
+      'Property managers overseeing large residential communities need a landscape partner they can count on without supervising. KJS operates on consistent schedules with the same experienced crews, so the standard holds whether it\'s week two or week twenty.',
   },
   {
     title: 'Condominiums',
     description:
-      'Condo corporations that demand consistent, professional grounds management that owners and boards can rely on.',
+      'Condo boards answer directly to owners, and the first thing residents notice is how the grounds are kept. KJS delivers the level of detail that makes a condo corporation look like it takes its reputation seriously.',
   },
   {
     title: 'Retirement Villages',
     description:
-      'Communities where beautiful, safe, and well-maintained landscapes directly support quality of life.',
+      'In retirement communities, the landscape is part of the dignity of the environment residents call home. KJS maintains these properties with the consistency and attention to safety that residents and their families can rely on.',
   },
   {
     title: 'Commercial & Industrial',
     description:
-      'Business parks and industrial properties where first impressions drive business outcomes.',
+      "A commercial property's landscape is the first impression tenants, clients, and visitors form, and it forms immediately. KJS keeps commercial and industrial grounds to a standard that reflects the organisations operating from them.",
   },
   {
     title: 'HOA Communities',
     description:
-      'Homeowner associations that need a trusted partner to maintain community standards across shared spaces.',
+      'In HOA communities, shared spaces define neighbourhood character and directly affect property values. KJS maintains common areas to a standard residents notice, boards can report on, and the neighbourhood reflects.',
   },
 ]
 
@@ -168,8 +164,8 @@ export const PARTNERS: string[] = [
 ]
 
 export const CHECKLIST: string[] = [
-  'Crisp, clean mow lines',
-  'Healthy, green turf management',
-  'Precision edging and detailing',
-  'Reliable scheduling and responsive service',
+  'Crisp mow lines, every visit',
+  'Turf health and fertilisation',
+  'Precision edging and bed detailing',
+  'Scheduled service, with storm response',
 ]

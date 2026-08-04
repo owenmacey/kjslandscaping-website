@@ -16,9 +16,11 @@ export default function CommonArea() {
           <em className="italic text-amber-lt">Excellence</em>
         </h2>
         <p className="font-body text-[15px] text-white/70 leading-[1.75] mb-8">
-          Our Landscape &amp; Turf Department specializes in common area
-          maintenance that elevates every property we touch — from open
-          greenspaces and medians to entrances and gathering areas.
+          The difference between a maintained property and a truly cared-for
+          one is visible from the street. KJS&apos;s grounds crews work to a
+          level of detail that goes beyond basic mowing and trimming:
+          clean-edged entrances, defined medians, and gathering areas that
+          feel looked after rather than just serviced.
         </p>
         <ul className="flex flex-col gap-3.5">
           {CHECKLIST.map((item) => (
@@ -53,10 +55,10 @@ export default function CommonArea() {
             Speaks Volumes.
           </p>
           <p className="font-body text-[15px] text-white/60 leading-[1.75]">
-            It's more than mowing and trimming — it's about creating inviting
-            environments that residents, tenants, and visitors are proud to walk
-            through. Our crews take pride in delivering consistent, professional,
-            and timely results with every visit.
+            A landscape that&apos;s merely maintained reads as one thing.
+            Genuine, consistent care through every season creates a different
+            experience for the people who live and work within it. That&apos;s
+            the standard KJS holds on every property, every visit.
           </p>
         </div>
       </div>

@@ -24,7 +24,7 @@ export default function Footer() {
             &copy; {year} {' '} &middot; KJS Landscaping &middot; Est. 1997 &middot; Simcoe County, ON
           </p>
           <p className="font-ui text-[9px] text-white/20 tracking-widest">
-            Stock photography via Unsplash — placeholder only
+            Site by MadeByMacey
           </p>
         </div>
       </div>

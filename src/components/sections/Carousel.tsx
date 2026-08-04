@@ -9,12 +9,18 @@ const SLIDES = IMAGES.carousel
 const N = SLIDES.length
 
 const ALTS = [
-  'Manicured lawn and grounds',
-  'Premium landscape property',
-  'Hardscape and patio construction',
-  'Commercial common area',
-  'Snow management and winter service',
-  'Interior construction project',
+  'Large mowed estate property with curved cut patterns',
+  'KJS crew maintaining garden beds at condo complex',
+  'KJS plow trucks staged for winter service',
+  'Garden bed and manicured lawn detail',
+  'KJS crew trimming hedges at commercial property',
+  'Perfectly striped residential lawn in summer',
+  'Mowed lawn and median alongside urban condo tower',
+  'KJS crew with leaf blowers during fall cleanup',
+  'Large front-end loader clearing snow at apartment building',
+  'Perfectly mowed residential lawn under blue summer sky',
+  'Crew raking garden beds along townhome streetfront',
+  'KJS crew member trimming landscape at premium home',
 ]
 
 const EASE = 'cubic-bezier(0.25, 0.46, 0.45, 0.94)'
@@ -116,8 +122,8 @@ export default function Carousel() {
           Our Work
         </p>
         <h2 className="font-display text-[clamp(32px,4vw,56px)] font-normal text-ink leading-[1.15]">
-          Landscapes We&apos;re{' '}
-          <em className="italic text-forest">Proud Of</em>
+          Every Property,{' '}
+          <em className="italic text-forest">Every Season</em>
         </h2>
       </div>
 
@@ -184,10 +190,6 @@ export default function Carousel() {
                   }}
                 />
 
-                {/* Placeholder tag */}
-                <span className="absolute top-3 left-3 bg-deep/50 text-white/50 font-ui text-[10px] tracking-widest uppercase px-3 py-1 pointer-events-none">
-                  Placeholder — replace with KJS photo
-                </span>
               </div>
             </div>
           )

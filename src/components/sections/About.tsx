@@ -76,36 +76,46 @@ export default function About() {
               Our Story
             </p>
             <h2 className="font-display text-[clamp(32px,4vw,48px)] font-normal text-ink leading-[1.15] mb-7">
-              Family-Run.
+              Rooted in Simcoe County.
               <br />
-              <em className="italic text-forest">Community-Focused.</em>
+              <em className="italic text-forest">Trusted Across Ontario.</em>
             </h2>
 
             <div className="border-l-[3px] border-amber pl-5 mb-7">
               <blockquote className="font-display text-[22px] italic text-forest leading-[1.5]">
-                "We are always looking to build our partnerships while making
-                our communities beautiful."
+                &ldquo;After 27 years, I&apos;m still the one who notices a
+                missed edge on a Tuesday morning. The crews know that if I&apos;d
+                stop to fix it, they should have caught it first. That
+                standard runs through everything we do.&rdquo;
               </blockquote>
             </div>
 
             <p className="font-body text-[15px] text-slate leading-[1.8] mb-5">
-              KJS Landscaping is a family-run, multi-season premium landscape
-              management company now in our 27th year of operation. Founded by
-              Kevin and Jodie Smith, we've built our reputation on consistent
-              quality, responsive service, and a genuine pride in the work our
-              experienced crews deliver.
+              Kevin Smith founded KJS Landscaping in Simcoe County in 1997,
+              taking on his first commercial accounts with a single crew and a
+              straightforward measure: every property maintained as if it were
+              his own. That approach built a reputation, and the reputation
+              built the company. Today, KJS operates multiple crews across a
+              territory stretching from the Greater Toronto Area to the
+              Muskokas, serving some of Ontario&apos;s most demanding
+              condominium corporations, retirement communities, and commercial
+              accounts.
             </p>
             <p className="font-body text-[15px] text-slate leading-[1.8] mb-7">
-              Our team brings a combined experience of over 30 years, and that
-              depth shows in every property we touch — from the sharpness of a
-              mow line to the reliability of our winter response. We don't just
-              maintain landscapes; we build lasting partnerships.
+              Jodie Smith has been part of KJS from the beginning. She is the
+              operational foundation that keeps a family business running when
+              the crews are in the field and the phones are ringing. Their sons
+              Tyler and Bryden grew up in the company, learning the trade and
+              the standard firsthand, and now carry both forward as part of the
+              team. For the Smiths, these aren&apos;t just properties. They&apos;re
+              the communities that have trusted the family for nearly three
+              decades.
             </p>
 
             <div className="w-12 h-[2px] bg-amber mb-7" />
 
             <p className="font-display text-[20px] font-medium text-ink mb-4">
-              Kevin &amp; Jodie Smith
+              Kevin Smith, Founder &amp; Owner
             </p>
 
             <div className="flex flex-col gap-2.5">
@@ -154,14 +164,18 @@ export default function About() {
           {/* Dark quote card */}
           <div className="bg-deep border-l-[3px] border-amber p-12">
             <p className="font-display text-[28px] font-light italic text-white leading-[1.4] mb-4">
-              "Elevating Your Outdoors with Expert Care."
+              &ldquo;The most valuable thing we offer isn&apos;t equipment or
+              manpower. It&apos;s one team that designs it, builds it, and
+              maintains it.&rdquo;
             </p>
             <p className="font-display text-[22px] font-semibold text-amber-lt mb-3">
               Design. Build. Maintain.
             </p>
             <p className="font-body text-[14px] text-white/55 leading-[1.7]">
-              Three words that define how we approach every property, every
-              season.
+              For property managers and HOA boards, that means consistent
+              standards from day one, accountability that doesn&apos;t
+              disappear after handover, and a landscape that improves with
+              each season.
             </p>
           </div>
 
@@ -171,18 +185,19 @@ export default function About() {
               Service Territory
             </p>
             <p className="font-body text-[14px] text-slate leading-[1.8] mb-4">
-              Based in{' '}
+              KJS is based in{' '}
               <strong className="text-ink font-medium">Simcoe County</strong>,
-              we service properties from the{' '}
+              placing our crews within reach of the{' '}
               <strong className="text-ink font-medium">
                 Greater Toronto Area
               </strong>{' '}
-              north through the{' '}
-              <strong className="text-ink font-medium">Muskokas</strong>, and
-              west to the{' '}
+              to the south, the{' '}
+              <strong className="text-ink font-medium">Muskokas</strong>{' '}
+              to the north, and{' '}
               <strong className="text-ink font-medium">Collingwood</strong>{' '}
-              area — covering the full range of Ontario's premier residential
-              and commercial markets.
+              to the west. That coverage reflects 27 years of clients who
+              stayed, referred, and expanded across Ontario&apos;s most
+              demanding residential and commercial markets.
             </p>
             <div className="flex flex-wrap gap-2">
               {REGIONS.map((region) => (

@@ -34,9 +34,11 @@ export default function Contact() {
             <em className="italic">Your Property?</em>
           </h2>
           <p className="font-body text-[15px] text-white/65 leading-[1.75] mb-9">
-            Whether your HOA, condo corporation, or commercial property needs a
-            trusted landscape partner — KJS is ready. Reach out to Kevin or
-            Jodie directly and we'll come by for a no-obligation quote.
+            If you manage a condominium, retirement community, or commercial
+            property, a conversation with KJS starts with a site visit, not a
+            sales call. Kevin Smith personally leads every initial consultation,
+            because the right programme starts with actually seeing what your
+            property needs.
           </p>
           <a
             href={`mailto:${CONTACT.email}`}

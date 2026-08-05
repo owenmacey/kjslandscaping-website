@@ -2,11 +2,11 @@
 
 import { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
-import { Smartphone, Phone, Mail, Globe } from 'lucide-react'
+import { Phone, Mail, Globe } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import { CONTACT, IMAGES } from '@/lib/constants'
 
-const REGIONS = ['Greater Toronto Area', 'Muskokas', 'Collingwood', 'Simcoe County']
+const REGIONS = ['Simcoe County', 'Greater Toronto Area', 'Muskoka', 'Collingwood']
 
 type AboutContactRow = {
   Icon: LucideIcon
@@ -17,7 +17,6 @@ type AboutContactRow = {
 }
 
 const CONTACT_ROWS: AboutContactRow[] = [
-  { Icon: Smartphone, label: 'Cell', value: '705.718.8826', href: 'tel:7057188826' },
   { Icon: Phone, label: 'Office', value: '705.792.1984', href: 'tel:7057921984' },
   { Icon: Mail, label: 'Email', value: CONTACT.email, href: `mailto:${CONTACT.email}` },
   { Icon: Globe, label: 'Website', value: CONTACT.website, href: CONTACT.websiteHref, external: true },
@@ -82,40 +81,49 @@ export default function About() {
             </h2>
 
             <div className="border-l-[3px] border-amber pl-5 mb-7">
-              <blockquote className="font-display text-[22px] italic text-forest leading-[1.5]">
-                &ldquo;After 27 years, I&apos;m still the one who notices a
-                missed edge on a Tuesday morning. The crews know that if I&apos;d
-                stop to fix it, they should have caught it first. That
-                standard runs through everything we do.&rdquo;
+              <blockquote className="font-display text-[22px] italic text-forest leading-[1.5] mb-3">
+                &ldquo;After 30 years in this industry, I&apos;m still the one
+                who notices the small details that make a property stand out.
+                Our crews take the same pride in their work that I&apos;ve
+                always believed in, and they understand that every edge, every
+                detail, and every finish reflects the care we put into the
+                properties we maintain. That commitment to quality is what
+                defines KJS Landscaping.&rdquo;
               </blockquote>
+              <p className="font-display text-[14px] font-medium text-forest/70">
+                — Kevin Smith, Founder
+              </p>
             </div>
 
             <p className="font-body text-[15px] text-slate leading-[1.8] mb-5">
-              Kevin Smith founded KJS Landscaping in Simcoe County in 1997,
-              taking on his first commercial accounts with a single crew and a
-              straightforward measure: every property maintained as if it were
-              his own. That approach built a reputation, and the reputation
-              built the company. Today, KJS operates multiple crews across a
-              territory stretching from the Greater Toronto Area to the
-              Muskokas, serving some of Ontario&apos;s most demanding
-              condominium corporations, retirement communities, and commercial
-              accounts.
+              KJS Landscaping began in the Greater Toronto Area in 1997 before
+              planting its roots in Simcoe County, where the company continues
+              to grow today. Built on a simple philosophy — treat every property
+              as if it were your own — what started with a single crew and a
+              handful of commercial accounts has evolved into a trusted,
+              year-round facility maintenance company serving condominium
+              communities, retirement residences, homeowners&apos; associations,
+              and commercial properties throughout the Simcoe region and cottage
+              country.
             </p>
             <p className="font-body text-[15px] text-slate leading-[1.8] mb-7">
-              Jodie Smith has been part of KJS from the beginning. She is the
-              operational foundation that keeps a family business running when
-              the crews are in the field and the phones are ringing. Their sons
-              Tyler and Bryden grew up in the company, learning the trade and
-              the standard firsthand, and now carry both forward as part of the
-              team. For the Smiths, these aren&apos;t just properties. They&apos;re
-              the communities that have trusted the family for nearly three
-              decades.
+              KJS Landscaping has always been a family business. Jodie, who
+              represents the &lsquo;J&rsquo; in KJS, has been an integral part
+              of the company from the very beginning, providing the operational
+              leadership that keeps projects moving, clients informed, and
+              day-to-day operations running smoothly. Their family — Alexis,
+              Tyler, Bryden, and Kyle — have grown up alongside the business,
+              learning firsthand the dedication, pride, and standards that have
+              shaped KJS Landscaping from the beginning.
             </p>
 
             <div className="w-12 h-[2px] bg-amber mb-7" />
 
-            <p className="font-display text-[20px] font-medium text-ink mb-4">
-              Kevin Smith, Founder &amp; Owner
+            <p className="font-display text-[20px] font-medium text-ink mb-1">
+              Kevin Smith
+            </p>
+            <p className="font-body text-[13px] text-slate tracking-wide uppercase mb-4">
+              Founder
             </p>
 
             <div className="flex flex-col gap-2.5">
@@ -164,18 +172,14 @@ export default function About() {
           {/* Dark quote card */}
           <div className="bg-deep border-l-[3px] border-amber p-12">
             <p className="font-display text-[28px] font-light italic text-white leading-[1.4] mb-4">
-              &ldquo;The most valuable thing we offer isn&apos;t equipment or
-              manpower. It&apos;s one team that designs it, builds it, and
-              maintains it.&rdquo;
+              &ldquo;The most valuable thing we offer isn&apos;t our equipment
+              or the size of our crews — it&apos;s the continuity of one
+              experienced team that designs your landscape, builds it with
+              precision, and maintains it to the same exacting standard for
+              years to come.&rdquo;
             </p>
-            <p className="font-display text-[22px] font-semibold text-amber-lt mb-3">
+            <p className="font-display text-[22px] font-semibold text-amber-lt">
               Design. Build. Maintain.
-            </p>
-            <p className="font-body text-[14px] text-white/55 leading-[1.7]">
-              For property managers and HOA boards, that means consistent
-              standards from day one, accountability that doesn&apos;t
-              disappear after handover, and a landscape that improves with
-              each season.
             </p>
           </div>
 
@@ -184,20 +188,17 @@ export default function About() {
             <p className="font-ui text-[10px] font-bold tracking-[0.25em] uppercase text-amber mb-3">
               Service Territory
             </p>
+            <p className="font-display text-[18px] font-medium text-ink leading-[1.3] mb-4">
+              Rooted in Simcoe County. Trusted Across the Region.
+            </p>
             <p className="font-body text-[14px] text-slate leading-[1.8] mb-4">
-              KJS is based in{' '}
-              <strong className="text-ink font-medium">Simcoe County</strong>,
-              placing our crews within reach of the{' '}
-              <strong className="text-ink font-medium">
-                Greater Toronto Area
-              </strong>{' '}
-              to the south, the{' '}
-              <strong className="text-ink font-medium">Muskokas</strong>{' '}
-              to the north, and{' '}
-              <strong className="text-ink font-medium">Collingwood</strong>{' '}
-              to the west. That coverage reflects 27 years of clients who
-              stayed, referred, and expanded across Ontario&apos;s most
-              demanding residential and commercial markets.
+              Based in Simcoe County, KJS Landscaping proudly serves clients
+              throughout Simcoe County, the Greater Toronto Area, Muskoka,
+              Collingwood, and the surrounding communities. Our service area
+              has grown through nearly 30 years of building lasting
+              relationships with condominium corporations, retirement
+              communities, commercial properties, and multi-residential
+              developments.
             </p>
             <div className="flex flex-wrap gap-2">
               {REGIONS.map((region) => (

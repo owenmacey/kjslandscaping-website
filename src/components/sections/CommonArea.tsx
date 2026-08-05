@@ -8,7 +8,7 @@ export default function CommonArea() {
       {/* Left — forest */}
       <div className="flex-1 min-h-[480px] bg-forest px-10 md:px-16 py-20 flex flex-col justify-center">
         <p className="font-ui text-[10px] font-bold tracking-[0.25em] uppercase text-amber-lt mb-4">
-          Landscape &amp; Turf Division
+          Common Area Excellence
         </p>
         <h2 className="font-display text-[clamp(32px,3.5vw,52px)] font-normal text-white leading-[1.15] mb-6">
           Common Area
@@ -16,11 +16,13 @@ export default function CommonArea() {
           <em className="italic text-amber-lt">Excellence</em>
         </h2>
         <p className="font-body text-[15px] text-white/70 leading-[1.75] mb-8">
-          The difference between a maintained property and a truly cared-for
-          one is visible from the street. KJS&apos;s grounds crews work to a
-          level of detail that goes beyond basic mowing and trimming:
-          clean-edged entrances, defined medians, and gathering areas that
-          feel looked after rather than just serviced.
+          The difference between a property that&apos;s simply maintained and
+          one that&apos;s truly cared for is visible from the moment you
+          arrive. At KJS Landscaping, our crews focus on the details that
+          create lasting curb appeal and a welcoming environment for residents,
+          visitors, and tenants. Every service visit is completed with
+          consistency, precision, and pride, ensuring your property always
+          presents its best.
         </p>
         <ul className="flex flex-col gap-3.5">
           {CHECKLIST.map((item) => (
@@ -55,10 +57,14 @@ export default function CommonArea() {
             Speaks Volumes.
           </p>
           <p className="font-body text-[15px] text-white/60 leading-[1.75]">
-            A landscape that&apos;s merely maintained reads as one thing.
-            Genuine, consistent care through every season creates a different
-            experience for the people who live and work within it. That&apos;s
-            the standard KJS holds on every property, every visit.
+            A landscape that&apos;s simply maintained sends one message. A
+            landscape that&apos;s consistently cared for throughout every
+            season creates an entirely different experience for the people who
+            live, work, and visit your property. At KJS Landscaping, every
+            visit is guided by the same commitment to quality, attention to
+            detail, and proactive care. We don&apos;t just maintain landscapes
+            — we help preserve and enhance the appearance, value, and enjoyment
+            of your property, season after season.
           </p>
         </div>
       </div>

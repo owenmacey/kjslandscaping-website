@@ -2,10 +2,10 @@
 
 import { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
-import { Leaf, Snowflake, Hammer, Building2 } from 'lucide-react'
+import { Leaf, Snowflake, Hammer, Sprout } from 'lucide-react'
 import { IMAGES, SERVICES } from '@/lib/constants'
 
-const SERVICE_ICONS = [Leaf, Snowflake, Hammer, Building2]
+const SERVICE_ICONS = [Leaf, Snowflake, Hammer, Sprout]
 const SERVICE_IMAGES = [
   IMAGES.services.maintenance,
   IMAGES.services.snow,
@@ -16,7 +16,7 @@ const SERVICE_ALTS = [
   'Lawn maintenance and grounds care',
   'Snow and ice management',
   'Landscape construction and hardscaping',
-  'Interior construction project',
+  'Interior landscaping and plant displays',
 ]
 
 export default function Services() {

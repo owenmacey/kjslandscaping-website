@@ -61,7 +61,7 @@ export default function Nav() {
         {/* Main nav bar */}
         <nav
           aria-label="Main navigation"
-          className={`bg-white border-b-2 border-forest h-16 flex items-center justify-between px-6 md:px-12 transition-shadow duration-300 ${
+          className={`bg-white border-b-2 border-forest h-20 flex items-center justify-between px-6 md:px-12 transition-shadow duration-300 ${
             scrolled ? 'shadow-[0_2px_16px_rgba(0,0,0,0.1)]' : ''
           }`}
         >
@@ -69,9 +69,9 @@ export default function Nav() {
             <Image
               src="/kjs_logo.png"
               alt="KJS Landscaping"
-              width={200}
-              height={48}
-              className="h-11 md:h-12 w-auto object-contain"
+              width={240}
+              height={64}
+              className="h-14 md:h-[60px] w-auto object-contain"
               priority
             />
           </Link>
@@ -88,7 +88,7 @@ export default function Nav() {
               </Link>
             ))}
             <Link
-              href="#contact"
+              href="mailto:quotes.kjslandscaping@gmail.com"
               className="ml-6 font-ui text-[11px] font-bold tracking-[0.12em] uppercase bg-forest text-white px-[22px] py-[10px] rounded-[2px] hover:bg-leaf transition-colors duration-200"
             >
               Get a Quote
@@ -139,7 +139,7 @@ export default function Nav() {
           </nav>
 
           <Link
-            href="#contact"
+            href="mailto:quotes.kjslandscaping@gmail.com"
             className="font-ui text-[12px] font-bold tracking-[0.15em] uppercase bg-forest text-white px-10 py-[15px] rounded-[2px] hover:bg-leaf transition-colors duration-200"
             onClick={close}
           >

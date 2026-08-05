@@ -1,4 +1,4 @@
-import { Smartphone, Phone, Mail, Globe, MapPin } from 'lucide-react'
+import { Phone, Mail, Globe, MapPin } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import { CONTACT } from '@/lib/constants'
 
@@ -7,7 +7,6 @@ type ContactRow =
   | { Icon: LucideIcon; label: string; value: string }
 
 const CONTACT_ROWS: ContactRow[] = [
-  { Icon: Smartphone, label: 'Cell', value: CONTACT.cell, href: CONTACT.cellHref },
   { Icon: Phone, label: 'Office', value: CONTACT.office, href: CONTACT.officeHref },
   { Icon: Mail, label: 'Email', value: CONTACT.email, href: `mailto:${CONTACT.email}` },
   { Icon: Globe, label: 'Website', value: CONTACT.website, href: CONTACT.websiteHref, external: true },
@@ -33,12 +32,20 @@ export default function Contact() {
             <br />
             <em className="italic">Your Property?</em>
           </h2>
+          <p className="font-body text-[15px] text-white/65 leading-[1.75] mb-5">
+            If you manage a condominium community, retirement residence, or
+            commercial property, your conversation with KJS Landscaping begins
+            with a site visit — not a sales pitch. Every initial consultation
+            is personally led by a KJS team member, ensuring your property is
+            evaluated firsthand. We take the time to understand your
+            site&apos;s unique layout, challenges, and maintenance requirements
+            before making any recommendations.
+          </p>
           <p className="font-body text-[15px] text-white/65 leading-[1.75] mb-9">
-            If you manage a condominium, retirement community, or commercial
-            property, a conversation with KJS starts with a site visit, not a
-            sales call. Kevin Smith personally leads every initial consultation,
-            because the right programme starts with actually seeing what your
-            property needs.
+            Rather than offering one-size-fits-all solutions, we develop
+            customised maintenance programmes designed to enhance curb appeal,
+            protect your landscape investment, and meet the specific needs of
+            your property and budget.
           </p>
           <a
             href={`mailto:${CONTACT.email}`}
@@ -85,10 +92,10 @@ export default function Contact() {
           </div>
 
           <a
-            href={CONTACT.cellHref}
+            href={CONTACT.officeHref}
             className="block w-full font-ui text-[12px] font-bold tracking-[0.15em] uppercase bg-amber text-white py-4 text-center rounded-[2px] hover:bg-amber-lt transition-colors"
           >
-            Call Now
+            Call Our Office
           </a>
         </div>
       </div>

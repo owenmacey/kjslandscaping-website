@@ -5,7 +5,7 @@ export const IMAGES = {
     maintenance: '/images/services/maintenance/IMG_3793.PNG',
     snow: '/images/services/snow/IMG_3630.PNG',
     construction: '/images/services/construction/Screenshot_18.png',
-    interior: 'https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?auto=format&fit=crop&w=800&q=80', // No client photo available — Unsplash placeholder
+    interior: 'https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?auto=format&fit=crop&w=800&q=80',
   },
 
   about: '/images/about/IMG_3797.PNG',
@@ -29,8 +29,6 @@ export const IMAGES = {
 } as const
 
 export const CONTACT = {
-  cell: '705.718.8826',
-  cellHref: 'tel:7057188826',
   office: '705.792.1984',
   officeHref: 'tel:7057921984',
   email: 'kjslandscaping1997@gmail.com',
@@ -59,7 +57,7 @@ export interface Stat {
 
 export const STATS: Stat[] = [
   { value: '27', suffix: '+', suffixIsAccent: true, label: 'Years of Proven Excellence' },
-  { value: 'GTA', accent: 'to', suffix: 'Muskokas', label: 'From the GTA to the Muskokas' },
+  { value: 'GTA', accent: 'to', suffix: 'Muskokas', label: 'Trusted Across the Region' },
   { value: '4', label: 'Seasons. One Trusted Partner.' },
 ]
 
@@ -73,48 +71,49 @@ export const SERVICES: Service[] = [
   {
     title: 'Spring, Summer & Fall Maintenance',
     description:
-      'A sharp, well-maintained property signals quality to every resident, tenant, and visitor who passes through. KJS delivers consistent grounds care across every growing season, so the standard never slips between visits.',
+      'A well-maintained property makes a lasting impression. From the first arrival of spring through the final cleanup of fall, KJS Landscaping delivers consistent grounds care that keeps your property looking professional, welcoming, and well cared for throughout every growing season.',
     bullets: [
-      'Consistent cut height and defined lines',
-      'Clean edges and defined borders',
-      'Turf health programmes',
-      'Spring and fall clean-ups',
-      'Scheduled, dependable service',
+      'Consistent mowing heights and clean, defined patterns',
+      'Precision edging and crisp landscape borders',
+      'Turf health programs designed to promote stronger, greener lawns',
+      'Seasonal spring and fall cleanups',
+      'Reliable scheduled service with dependable communication',
     ],
   },
   {
     title: 'Snow & Ice Management',
     description:
-      'Winter conditions wait for no one. Properties that fall behind create liability, damage reputations, and put people at risk. KJS operates around the clock through every storm, with the equipment and response time property managers can depend on.',
+      'Winter conditions can change quickly, and reliable snow and ice management is essential to protecting your property, reducing risk, and keeping residents, tenants, employees, and visitors safe. KJS Landscaping provides dependable winter services supported by experienced crews, professional equipment, and proactive storm monitoring.',
     bullets: [
-      'Proactive pre-treatment and ice control',
-      'Full-lot plowing and clearing',
-      'Salting and de-icing programmes',
-      '24/7 storm monitoring and response',
-      'Contracted seasonal coverage',
+      'Proactive pre-treatment and ice control strategies',
+      'Full property snow clearing and efficient lot management',
+      'Salting and de-icing programs tailored to site conditions',
+      '24/7 storm monitoring and responsive service',
+      'Contracted seasonal winter coverage with dedicated support',
     ],
   },
   {
     title: 'Landscape Construction',
     description:
-      'When a property needs more than maintenance, KJS takes on the full build. From the first consultation to final installation, one team handles design, build, and handover so nothing is lost between phases.',
+      'When a property requires more than ongoing maintenance, KJS Landscaping provides complete landscape construction services from concept through completion. By keeping design, construction, and ongoing care under one roof, we ensure consistency, accountability, and a finished landscape built to perform for years to come.',
     bullets: [
-      'Hardscaping and patio installation',
-      'Planting and garden bed design',
-      'Irrigation system installation',
-      'Retaining walls and site grading',
-      'Common area upgrades',
+      'Custom hardscaping and patio installations',
+      'Planting plans and garden bed enhancements',
+      'Irrigation system design and installation',
+      'Retaining walls, drainage solutions, and site grading',
+      'Common area renovations and property improvements',
     ],
   },
   {
-    title: 'Interior Construction',
+    title: 'Interior Landscaping & Planting Services',
     description:
-      "KJS's interior division handles common area renovations for condominium buildings, retirement communities, and commercial properties: lobbies, corridors, amenity spaces, and shared areas brought to the standard the exterior already reflects. Year-round availability means your property keeps moving forward regardless of season.",
+      "KJS Landscaping's interior division brings the same attention to detail and care found outdoors into the shared spaces of condominium buildings, retirement communities, and commercial properties. From lobbies and corridors to amenity spaces and common areas, we design and maintain interior plant displays that enhance atmosphere and create welcoming environments.",
     bullets: [
-      'Lobby, corridor, and amenity renovations',
-      'Year-round project availability',
-      'Multi-residential and commercial experience',
-      'End-to-end project management',
+      'Interior plant design, installation, and placement',
+      'Lobby, corridor, and amenity area plant displays',
+      'Ongoing interior plant care and maintenance programs',
+      'Multi-residential and commercial property experience',
+      'End-to-end coordination from planning through installation',
     ],
   },
 ]
@@ -126,29 +125,29 @@ export interface Specialization {
 
 export const SPECIALIZATIONS: Specialization[] = [
   {
-    title: 'Multi-Residential',
+    title: 'Multi-Residential Communities',
     description:
-      'Property managers overseeing large residential communities need a landscape partner they can count on without supervising. KJS operates on consistent schedules with the same experienced crews, so the standard holds whether it\'s week two or week twenty.',
+      'Managing a multi-residential property requires a landscape partner you can trust to deliver consistent results without constant oversight. KJS Landscaping works to dependable schedules with experienced crews who understand your property, ensuring the same high standard is maintained from the first visit of the season to the last.',
   },
   {
-    title: 'Condominiums',
+    title: 'Condominium Communities',
     description:
-      'Condo boards answer directly to owners, and the first thing residents notice is how the grounds are kept. KJS delivers the level of detail that makes a condo corporation look like it takes its reputation seriously.',
+      'Condominium boards are accountable to homeowners, and the condition of the grounds is one of the first things residents and visitors notice. KJS Landscaping provides meticulous landscape maintenance that enhances curb appeal, protects property values, and reflects the pride your community deserves.',
   },
   {
-    title: 'Retirement Villages',
+    title: 'Retirement Communities',
     description:
-      'In retirement communities, the landscape is part of the dignity of the environment residents call home. KJS maintains these properties with the consistency and attention to safety that residents and their families can rely on.',
+      'Beautiful, well-maintained landscapes contribute to the comfort, safety, and quality of life of residents. KJS Landscaping delivers thoughtful, dependable maintenance with an emphasis on accessibility, cleanliness, and attention to detail, creating outdoor spaces residents and their families can enjoy with confidence.',
   },
   {
-    title: 'Commercial & Industrial',
+    title: 'Commercial & Industrial Properties',
     description:
-      "A commercial property's landscape is the first impression tenants, clients, and visitors form, and it forms immediately. KJS keeps commercial and industrial grounds to a standard that reflects the organisations operating from them.",
+      'Your landscape is often the first impression customers, tenants, employees, and visitors have of your business. KJS Landscaping maintains commercial and industrial properties with professionalism, consistency, and efficiency, ensuring your grounds reflect the quality and reputation of your organisation.',
   },
   {
-    title: 'HOA Communities',
+    title: "Homeowners' Associations (HOAs)",
     description:
-      'In HOA communities, shared spaces define neighbourhood character and directly affect property values. KJS maintains common areas to a standard residents notice, boards can report on, and the neighbourhood reflects.',
+      "Shared green spaces shape the identity of an HOA community and play an important role in preserving property values. KJS Landscaping maintains entrances, parks, pathways, and common areas to a consistently high standard that residents appreciate, boards can confidently stand behind, and the entire community can take pride in.",
   },
 ]
 
@@ -164,8 +163,8 @@ export const PARTNERS: string[] = [
 ]
 
 export const CHECKLIST: string[] = [
-  'Sharp lines on every pass',
-  'Turf health and fertilisation',
-  'Precision edging and bed detailing',
-  'Scheduled service, with storm response',
+  'Crisp mowing patterns and sharp, clean edges on every visit',
+  'Healthy, vibrant turf through proactive lawn care and fertilisation',
+  'Precision edging, garden bed maintenance, and detailed landscape grooming',
+  'Clean entrances, boulevards, medians, and common gathering spaces',
 ]

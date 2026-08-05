@@ -8,7 +8,7 @@ export default function Hero() {
     <section
       id="hero"
       aria-label="Hero"
-      className="relative min-h-screen bg-deep flex flex-col items-center justify-center overflow-hidden px-6 md:px-12 pt-[64px] md:pt-[100px] pb-24 text-center"
+      className="relative min-h-screen bg-deep flex flex-col items-center justify-center overflow-hidden px-6 md:px-12 pt-[80px] md:pt-[116px] pb-24 text-center"
     >
       {/* Background photo */}
       <Image
@@ -67,7 +67,7 @@ export default function Hero() {
         {/* CTAs */}
         <div className="flex items-center justify-center gap-4 flex-wrap">
           <a
-            href="#contact"
+            href="mailto:quotes.kjslandscaping@gmail.com"
             className="font-ui text-[12px] font-bold tracking-[0.15em] uppercase bg-amber text-white px-9 py-[15px] rounded-[2px] hover:bg-amber-lt hover:-translate-y-px transition"
           >
             Get a Free Quote

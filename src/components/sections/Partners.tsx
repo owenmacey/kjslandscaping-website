@@ -47,7 +47,7 @@ export default function Partners() {
       </div>
 
       <p className="text-center mt-6 px-6 font-body text-[13px] italic text-slate">
-        A client roster built on referrals, renewals, and relationships that go back years, stretching from Simcoe County across Ontario.
+        A growing network of condominium corporations, retirement communities, and commercial property managers who trust KJS Landscaping season after season.
       </p>
     </section>
   )

@@ -21,6 +21,20 @@ const ALTS = [
   'Perfectly mowed residential lawn under blue summer sky',
   'Crew raking garden beds along townhome streetfront',
   'KJS crew member trimming landscape at premium home',
+  'Multi-tiered granite retaining wall with hydrangeas at commercial high-rise',
+  'Colourful flower border along paver walkway at commercial property',
+  'KJS crew member applying fertilizer on residential front lawn',
+  'Completed paver patio with privacy screen and raised planter walls',
+  'Pergola structure under construction in residential backyard',
+  'Finished paver patio installation in townhome backyard',
+  'Custom horizontal-slat wooden privacy screen alongside pool',
+  'Raised circular flower bed with colourful annuals in retirement community courtyard',
+  'Commercial property entrance with curved flower bed and manicured lawn',
+  'Crew member mowing in front of massive multi-tiered retaining wall',
+  'Crew maintaining artificial putting green and surrounding garden beds',
+  'Fence installation at commercial property',
+  'New cedar deck construction at residential property',
+  'KJS crew member trimming hedges at retirement community building',
 ]
 
 const EASE = 'cubic-bezier(0.25, 0.46, 0.45, 0.94)'

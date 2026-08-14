@@ -158,15 +158,27 @@ export default function About() {
             rightVis ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
           }`}
         >
-          {/* Team photo */}
-          <div className="relative h-64 w-full overflow-hidden border-b-[3px] border-amber">
-            <Image
-              src={IMAGES.about}
-              alt="KJS Landscaping team"
-              fill
-              className="object-cover object-center"
-              sizes="(max-width: 768px) 100vw, 50vw"
-            />
+          {/* Team photos — stacked pair */}
+          <div className="flex flex-col">
+            <div className="relative h-64 w-full overflow-hidden">
+              <Image
+                src={IMAGES.about[0]}
+                alt="KJS Landscaping crew"
+                fill
+                className="object-cover object-top"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+            </div>
+            <div style={{ height: '2px', backgroundColor: 'var(--amber)' }} aria-hidden="true" />
+            <div className="relative h-64 w-full overflow-hidden">
+              <Image
+                src={IMAGES.about[1]}
+                alt="KJS crew member tending garden beds at commercial property"
+                fill
+                className="object-cover object-center"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+            </div>
           </div>
 
           {/* Dark quote card */}

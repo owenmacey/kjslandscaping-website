@@ -4,13 +4,16 @@ export const IMAGES = {
   services: {
     maintenance: '/images/services/maintenance/IMG_3793.PNG',
     snow: '/images/services/snow/IMG_3630.PNG',
-    construction: '/images/services/construction/Screenshot_18.png',
+    construction: '/images/services/construction/IMG_0137.JPG',
     interior: 'https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?auto=format&fit=crop&w=800&q=80',
   },
 
-  about: '/images/about/IMG_3797.PNG',
+  about: [
+    '/images/about/IMG_3797.PNG',
+    '/images/about/IMG_0140.JPG',
+  ],
 
-  commonArea: '/images/common-area/IMG_3746.jpg',
+  commonArea: '/images/common-area/IMG_0135.JPG',
 
   carousel: [
     '/images/carousel/IMG_3791.PNG',
@@ -25,6 +28,20 @@ export const IMAGES = {
     '/images/carousel/IMG_3632.PNG',
     '/images/carousel/IMG_3744.jpg',
     '/images/carousel/IMG_3769.jpg',
+    '/images/carousel/IMG_0138.JPG',
+    '/images/carousel/IMG_0139.JPG',
+    '/images/carousel/IMG_0141.JPG',
+    '/images/carousel/IMG_0147.JPG',
+    '/images/carousel/IMG_0150.JPG',
+    '/images/carousel/IMG_0151.JPG',
+    '/images/carousel/IMG_0154.JPG',
+    '/images/carousel/IMG_0157.JPG',
+    '/images/carousel/IMG_0158.JPG',
+    '/images/carousel/IMG_0159.JPG',
+    '/images/carousel/IMG_0160.JPG',
+    '/images/carousel/IMG_0166.JPG',
+    '/images/carousel/IMG_0171.JPG',
+    '/images/carousel/IMG_5182.jpeg',
   ],
 } as const
 

@@ -4,8 +4,8 @@ export const IMAGES = {
   services: {
     maintenance: '/images/services/maintenance/IMG_3793.PNG',
     snow: '/images/services/snow/IMG_3630.PNG',
-    construction: '/images/services/construction/IMG_0137.JPG',
-    interior: 'https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?auto=format&fit=crop&w=800&q=80',
+    construction: '/images/services/construction/IMG_0156.JPG',
+    interior: 'https://images.unsplash.com/photo-1758448500688-3ababa93fd67?auto=format&fit=crop&w=800&q=80',
   },
 
   about: [

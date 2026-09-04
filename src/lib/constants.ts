@@ -13,7 +13,7 @@ export const IMAGES = {
     '/images/about/IMG_0140.JPG',
   ],
 
-  commonArea: '/images/common-area/IMG_0135.JPG',
+  commonArea: '/images/common-area/IMG_0134.JPG',
 
   carousel: [
     '/images/carousel/IMG_3791.PNG',
@@ -42,6 +42,8 @@ export const IMAGES = {
     '/images/carousel/IMG_0166.JPG',
     '/images/carousel/IMG_0171.JPG',
     '/images/carousel/IMG_5182.jpeg',
+    '/images/carousel/IMG_0133.JPG',
+    '/images/carousel/IMG_0134.JPG',
   ],
 } as const
 
@@ -73,8 +75,8 @@ export interface Stat {
 }
 
 export const STATS: Stat[] = [
-  { value: '27', suffix: '+', suffixIsAccent: true, label: 'Years of Proven Excellence' },
-  { value: 'GTA', accent: 'to', suffix: 'Muskokas', label: 'Trusted Across the Region' },
+  { value: '30', label: 'Years of Proven Excellence' },
+  { value: 'GTA', accent: 'to', suffix: 'Muskoka', label: 'Trusted Across the Region' },
   { value: '4', label: 'Seasons. One Trusted Partner.' },
 ]
 
@@ -171,7 +173,7 @@ export const SPECIALIZATIONS: Specialization[] = [
 export const PARTNERS: string[] = [
   'Jarlette',
   'Chartwell',
-  'Hassey',
+  'Summit Square',
   'Bayshore',
   'DMS',
   'Integrity',
@@ -184,4 +186,32 @@ export const CHECKLIST: string[] = [
   'Healthy, vibrant turf through proactive lawn care and fertilisation',
   'Precision edging, garden bed maintenance, and detailed landscape grooming',
   'Clean entrances, boulevards, medians, and common gathering spaces',
+]
+
+export interface Review {
+  stars: number
+  body: string
+  name: string
+  property: string
+}
+
+export const REVIEWS: Review[] = [
+  {
+    stars: 5,
+    body: 'Client review placeholder — real review coming soon. KJS Landscaping has been an outstanding partner for our property. Their crew is professional, reliable, and the results speak for themselves season after season.',
+    name: 'Client Name',
+    property: 'Property Name · Simcoe County',
+  },
+  {
+    stars: 5,
+    body: 'Client review placeholder — real review coming soon. From snow removal through to spring cleanup, KJS handles everything with a level of care and consistency that our residents genuinely notice and appreciate.',
+    name: 'Client Name',
+    property: 'Condominium Corporation · Ontario',
+  },
+  {
+    stars: 5,
+    body: "Client review placeholder — real review coming soon. We've worked with KJS Landscaping for several years and the standard has never slipped. They treat our property like it's their own — that's rare to find.",
+    name: 'Client Name',
+    property: 'Property Management Group · Ontario',
+  },
 ]

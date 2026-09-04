@@ -91,7 +91,7 @@ export default function About() {
                 defines KJS Landscaping.&rdquo;
               </blockquote>
               <p className="font-display text-[14px] font-medium text-forest/70">
-                — Kevin Smith, Founder
+                — Kevin Smith, President
               </p>
             </div>
 
@@ -123,7 +123,7 @@ export default function About() {
               Kevin Smith
             </p>
             <p className="font-body text-[13px] text-slate tracking-wide uppercase mb-4">
-              Founder
+              President
             </p>
 
             <div className="flex flex-col gap-2.5">

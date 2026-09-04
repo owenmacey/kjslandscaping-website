@@ -3,8 +3,7 @@
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Phone, Mail } from 'lucide-react'
-import { NAV_LINKS, CONTACT } from '@/lib/constants'
+import { NAV_LINKS } from '@/lib/constants'
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false)
@@ -35,33 +34,10 @@ export default function Nav() {
   return (
     <>
       <div className="fixed top-0 left-0 right-0 z-50">
-        {/* Top bar — desktop only */}
-        <div className="hidden md:flex bg-forest h-9 items-center justify-between px-12">
-          <span className="font-ui text-[10px] font-semibold tracking-[0.15em] uppercase text-white/80">
-            Est. 1997 · Simcoe County, Ontario
-          </span>
-          <div className="flex items-center gap-6 font-ui text-[10px] font-semibold tracking-[0.15em] uppercase">
-            <a
-              href={CONTACT.officeHref}
-              className="flex items-center gap-1.5 text-white/80 hover:text-white transition-colors duration-200"
-            >
-              <Phone size={11} className="text-white/70" />
-              {CONTACT.office}
-            </a>
-            <a
-              href={`mailto:${CONTACT.email}`}
-              className="flex items-center gap-1.5 text-white/80 hover:text-white transition-colors duration-200"
-            >
-              <Mail size={11} className="text-white/70" />
-              {CONTACT.email}
-            </a>
-          </div>
-        </div>
-
         {/* Main nav bar */}
         <nav
           aria-label="Main navigation"
-          className={`bg-white border-b-2 border-forest h-20 flex items-center justify-between px-6 md:px-12 transition-shadow duration-300 ${
+          className={`bg-white border-b-2 border-forest h-16 flex items-center justify-between px-6 md:px-12 transition-shadow duration-300 ${
             scrolled ? 'shadow-[0_2px_16px_rgba(0,0,0,0.1)]' : ''
           }`}
         >

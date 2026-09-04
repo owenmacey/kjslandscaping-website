@@ -8,6 +8,7 @@ import WhoWeServe from '@/components/sections/WhoWeServe'
 import CommonArea from '@/components/sections/CommonArea'
 import Carousel from '@/components/sections/Carousel'
 import Partners from '@/components/sections/Partners'
+import Reviews from '@/components/sections/Reviews'
 import Contact from '@/components/sections/Contact'
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
         <CommonArea />
         <Carousel />
         <Partners />
+        <Reviews />
         <Contact />
       </main>
       <Footer />

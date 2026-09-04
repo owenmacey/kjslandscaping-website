@@ -24,7 +24,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: 'KJS Landscaping | Elevating Your Outdoors with Expert Care',
   description:
-    'Family-run premium landscape management company serving the GTA, Muskokas & Collingwood since 1997. Spring/Fall maintenance, Snow & Ice, Landscape Construction.',
+    'Family-run premium landscape management company serving the GTA, Muskoka & Collingwood since 1997. Spring/Fall maintenance, Snow & Ice, Landscape Construction.',
   icons: {
     icon: '/kjs_tree_symbol.png',
     apple: '/kjs_tree_symbol.png',

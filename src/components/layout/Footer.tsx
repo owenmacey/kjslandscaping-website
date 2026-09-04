@@ -11,8 +11,9 @@ export default function Footer() {
           src="/kjs_logo.png"
           alt="KJS Landscaping"
           width={180}
-          height={60}
-          className="h-16 w-auto object-contain"
+          height={72}
+          className="h-[72px] w-auto object-contain"
+          style={{ filter: 'brightness(0) invert(1)' }}
         />
         <p className="font-display text-[16px] italic text-white/45">
           Elevating Your Outdoors with Expert Care.

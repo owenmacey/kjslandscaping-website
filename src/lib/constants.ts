@@ -19,7 +19,7 @@ export const IMAGES = {
     '/images/carousel/IMG_3791.PNG',
     '/images/carousel/IMG_3790.PNG',
     '/images/carousel/IMG_3626.PNG',
-    '/images/carousel/Screenshot_20.png',
+    '/images/carousel/IMG_0132.JPG',
     '/images/carousel/841ee7bd-60b0-4100-a75f-eb20fb0dbc23.jpg',
     '/images/carousel/IMG_3625.PNG',
     '/images/carousel/IMG_3792.PNG',

@@ -5,7 +5,8 @@ export default function Stats() {
     <section
       id="stats"
       aria-label="Key statistics"
-      className="bg-forest border-t-[3px] border-amber"
+      className="border-t-[3px] border-amber"
+      style={{ background: 'var(--forest)' }}
     >
       <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-white/10">
         {STATS.map((stat) => (

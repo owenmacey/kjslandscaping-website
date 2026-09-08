@@ -198,20 +198,20 @@ export interface Review {
 export const REVIEWS: Review[] = [
   {
     stars: 5,
-    body: 'Client review placeholder — real review coming soon. KJS Landscaping has been an outstanding partner for our property. Their crew is professional, reliable, and the results speak for themselves season after season.',
-    name: 'Client Name',
-    property: 'Property Name · Simcoe County',
+    body: 'KJS Landscaping completely transformed our property. From the initial consultation through to the finished project, their attention to detail was outstanding. The crew was professional, hardworking, and clearly took pride in what they were doing. The finished landscaping looks incredible and has completely changed the look of our home. We couldn’t be happier with the result and would absolutely recommend KJS to anyone looking for quality landscape construction.',
+    name: 'Allan',
+    property: 'Landscape Construction',
   },
   {
     stars: 5,
-    body: 'Client review placeholder — real review coming soon. From snow removal through to spring cleanup, KJS handles everything with a level of care and consistency that our residents genuinely notice and appreciate.',
-    name: 'Client Name',
-    property: 'Condominium Corporation · Ontario',
+    body: 'We’ve been extremely impressed with KJS Landscaping and their maintenance team. The property is consistently kept looking its best, and the crew pays attention to the little things — clean edges, detailed garden beds, and everything left neat after they leave. It’s obvious that quality matters to them. Having a company we can trust to look after our property without having to worry about it has been fantastic.',
+    name: 'Susan',
+    property: 'Landscape Maintenance · SCC 281',
   },
   {
     stars: 5,
-    body: "Client review placeholder — real review coming soon. We've worked with KJS Landscaping for several years and the standard has never slipped. They treat our property like it's their own — that's rare to find.",
-    name: 'Client Name',
-    property: 'Property Management Group · Ontario',
+    body: 'KJS Landscaping has taken the stress out of winter for us. Their snow removal service is reliable, professional, and very well organized. They stay on top of the weather and make sure the property is cleared and safe when we need it. Even after major snowfalls, they get the job done without cutting corners. When winter hits, it’s nice knowing KJS has it handled.',
+    name: 'Mike E.',
+    property: 'Snow Removal',
   },
 ]

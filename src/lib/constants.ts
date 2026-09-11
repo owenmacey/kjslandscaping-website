@@ -177,7 +177,7 @@ export const PARTNERS: string[] = [
   'Bayshore',
   'DMS',
   'Integrity',
-  'First Residential',
+  'First Service Residential',
   'Laker Property Management',
 ]
 
@@ -206,7 +206,7 @@ export const REVIEWS: Review[] = [
     stars: 5,
     body: 'We’ve been extremely impressed with KJS Landscaping and their maintenance team. The property is consistently kept looking its best, and the crew pays attention to the little things — clean edges, detailed garden beds, and everything left neat after they leave. It’s obvious that quality matters to them. Having a company we can trust to look after our property without having to worry about it has been fantastic.',
     name: 'Susan',
-    property: 'Landscape Maintenance · SCC 281',
+    property: 'SCC 281',
   },
   {
     stars: 5,
